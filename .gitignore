@@ -1,0 +1,6 @@
+.idea/
+tmp*
+*.py[cod]
+__pycache__/
+test*
+venv*
