@@ -5,7 +5,7 @@ import requests
 
 
 # ============ Download file by url job ==============
-def download_file_by_url(params):
+def task_download_file_by_url(params):
     """
     Expecting params:
     url - str - url of file
