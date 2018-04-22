@@ -2,6 +2,9 @@ import random
 import redis
 import time
 
+import log
+log.init()
+
 
 class RedisQueue:
     def __init__(self, host='localhost', port=6379, db=0):

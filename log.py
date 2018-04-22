@@ -9,6 +9,6 @@ def init(config=None, verbose=None):
     else:
         logging.basicConfig(
             stream=sys.stderr,
-            format="%(asctime)s %(levelname) %(process)d %(name)s: %(message)s",
+            format="%(asctime)s %(levelname)s %(process)d %(processName)s: %(message)s",
             level=logging.DEBUG if verbose else logging.INFO
         )
